@@ -14,14 +14,14 @@ variable "node_count" {
   default     = 1
 }
 variable "root_domain" {
-  description = "The root domain the panel will be available on, subdomains will be created"
+  description = "The root domain the panel will be available on, subdomains will automatically be created"
 }
 variable "manage_root_domain" {
-  description = "Sets if terraform should manage creation/deletion of the root domain"
+  description = "Sets if terraform should manage creation/deletion of the root domain's zone"
   default = false
 }
 variable "ssh_public_key_fingerprint" {
-  description = "The fingerprint of your public SSH key"
+  description = "The fingerprint of your SSH key"
 }
 variable "panel_droplet_size" {
   description = "The size for the panel droplet"

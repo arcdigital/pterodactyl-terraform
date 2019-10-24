@@ -1,5 +1,4 @@
 # Pterodactyl Queue Worker File
-# ----------------------------------
 
 [Unit]
 Description=Pterodactyl Queue Worker
